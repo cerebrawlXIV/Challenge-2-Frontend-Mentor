@@ -1,0 +1,96 @@
+header{
+    width: 84%;
+    margin: auto;
+    p:first-child{
+        text-align: center;
+        font-size: 1.7em;
+        font-weight: 200;
+        color: $titleColor;
+    }
+    h1{
+        text-align: center;
+        font-size: 1.7em;
+        font-weight: bold;
+        margin-top: 13px;
+    }
+    p:last-child{
+        text-align: center;
+        font-weight: 400;
+        margin-top: 22px;
+        line-height: 26px;
+    }
+}
+
+section{
+    width: 84%;
+    margin: 66px auto;
+    div{
+        width: 100%;
+    }
+    article{
+        background-color: #fff;
+        width: 100%;
+        padding: 26px;
+        margin-top: 24px;
+        border-top: 4px solid;
+        border-top-left-radius: 10px 4px;
+        border-top-right-radius: 10px 4px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: -1px 12px 25px -11px hsl(229, 6%, 66%);
+        h2{
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        p{
+            font-size: .9em;
+            margin: 10px 0px 100px 0px;
+            line-height: 26px;
+        }
+    }
+    #article1{
+        border-color: $secondaryColor2;
+        background: bottom 30px right 30px url('/four-card-feature-section-master/images/icon-supervisor.svg') no-repeat;
+        background-size: auto;
+    }
+    #article2{
+        border-color: $secondaryColor1;
+        background: bottom 30px right 30px url('/four-card-feature-section-master/images/icon-team-builder.svg') no-repeat;
+        background-size: auto;
+    }
+    #article3{
+        border-color: $secondaryColor3;
+        background: bottom 30px right 30px url('/four-card-feature-section-master/images/icon-karma.svg') no-repeat;
+        background-size: auto;
+    }
+    #article4{
+        border-color: $secondaryColor4;
+        background: bottom 30px right 30px url('/four-card-feature-section-master/images/icon-calculator.svg') no-repeat;
+        background-size: auto;
+    }
+}
+
+footer{
+    width: 100%;
+    p{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        a{
+            color: $titleColor;
+            font-weight: bold;
+        }
+    }
+}
+
+@media (min-width: 1080px){
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        article{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+}

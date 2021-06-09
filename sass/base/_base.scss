@@ -1,5 +1,11 @@
 body{
+    padding: 15px 0px;
     background-color: $backgroundColor;
     font-family: $textFont;
     font-size: 15px;
+    color: $textColor;
+}
+
+h1, h2{
+    color: $titleColor;
 }
